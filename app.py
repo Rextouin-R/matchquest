@@ -607,6 +607,43 @@ if __name__ == '__main__':
         queries_files.sort(key=lambda x: int(re.findall(r'\d+', x)[0]) if re.findall(r'\d+', x) else 0)
 
         matchquest.print_timestamp(
+            f"{Fore.MAGENTA + Style.BRIGHT}[======]{Style.RESET_ALL}"
+            f"{Fore.WHITE + Style.BRIGHT}   {Style.RESET_ALL}"
+            f"{Fore.CYAN + Style.BRIGHT}[=============================]{Style.RESET_ALL}"
+        )
+
+        matchquest.print_timestamp(
+            f"{Fore.MAGENTA + Style.BRIGHT}[ ===> ]{Style.RESET_ALL}"
+            f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}"
+            f"{Fore.CYAN + Style.BRIGHT}[         REXTOUIN_RR         ]{Style.RESET_ALL}"
+        )
+
+        matchquest.print_timestamp(
+            f"{Fore.MAGENTA + Style.BRIGHT}[ JOIN ]{Style.RESET_ALL}"
+            f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}"
+            f"{Fore.CYAN + Style.BRIGHT}[      AIRDROP_UNLIMITED      ]{Style.RESET_ALL}"
+        )
+
+        matchquest.print_timestamp(
+            f"{Fore.MAGENTA + Style.BRIGHT}[ JOIN ]{Style.RESET_ALL}"
+            f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}"
+            f"{Fore.CYAN + Style.BRIGHT}[     UNLIMITED_DISCUSSION    ]{Style.RESET_ALL}"
+        )
+
+        matchquest.print_timestamp(
+            f"{Fore.MAGENTA + Style.BRIGHT}[======]{Style.RESET_ALL}"
+            f"{Fore.WHITE + Style.BRIGHT}   {Style.RESET_ALL}"
+            f"{Fore.CYAN + Style.BRIGHT}[=============================]{Style.RESET_ALL}"
+        )
+
+        matchquest.print_timestamp(
+            f"{Fore.MAGENTA + Style.BRIGHT}[      ]{Style.RESET_ALL}"
+            f"{Fore.WHITE + Style.BRIGHT}   {Style.RESET_ALL}"
+            f"{Fore.CYAN + Style.BRIGHT}[                             ]{Style.RESET_ALL}"
+        )
+
+
+        matchquest.print_timestamp(
             f"{Fore.MAGENTA + Style.BRIGHT}[ 1 ]{Style.RESET_ALL}"
             f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}"
             f"{Fore.CYAN + Style.BRIGHT}[ Split Queries ]{Style.RESET_ALL}"
